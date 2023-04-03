@@ -40,7 +40,6 @@ client.on("ready", async () => {
         smallImageText: data.artistName,
         startTimestamp: startedDate,
         endTimestamp: endDate,
-        //type: 5,
       });
     });
   });

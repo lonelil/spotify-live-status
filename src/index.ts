@@ -40,6 +40,16 @@ client.on("ready", async () => {
         smallImageText: data.artistName,
         startTimestamp: startedDate,
         endTimestamp: endDate,
+        buttons: [
+          {
+            label: "Download / Stream",
+            url: `https://album.link/s/${data.songId}`,
+          },
+          {
+            label: "Powered by spotify-live-status",
+            url: "https://github.com/lonelil/spotify-live-status",
+          },
+        ],
       });
     });
   });

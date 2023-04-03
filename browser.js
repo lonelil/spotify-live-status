@@ -38,6 +38,7 @@
         let newData = {
           line: currentLine,
           song: currentSong.innerText,
+          songId: currentSong.href.split("album/")[1],
           artistName: currentSongArtist.innerHTML,
           artistId: currentSongArtist.href.split("artist/")[1],
           art: currentSongArt,

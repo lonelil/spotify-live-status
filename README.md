@@ -7,6 +7,7 @@ Allows you to show your Spotify status to discord with lyrics support!
 ## Files
 
 `browser.js`: this is a userscript which feeds the spotify data to the server, just install this inside tampermonkey and it will work.
+
 `src/index.ts`: the server code which runs the rpc part, please build it first then run the compiled version.
 
 For this to work, please open the Spotify lyrics page so the script can read the lyric, also please expand the album art, this would allow the script to get a better quality album art.
